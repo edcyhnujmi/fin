@@ -1,0 +1,15 @@
+.code-display{
+    display: none;
+}
+.price-display{
+    display: none;
+}
+.js-show-code{
+    display: none;
+}
+.js-show-price{
+    display: none;
+}
+.showing{
+    display: block;
+}
