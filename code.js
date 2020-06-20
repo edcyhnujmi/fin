@@ -13,7 +13,6 @@ function handleCodeSubmit(event){
     const userCode= codeInput.value;
     paintCode(userCode);
     saveCode(userCode);
-    console.log(userCode);
 }
 
 function askForCode(){

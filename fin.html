@@ -6,21 +6,30 @@
     </head>
     <body>
         <form class="js-code-form code-display">
-            <input type="text" placeholder="종목코드를 입력">
+            <input type="text" placeholder="종목코드 입력 후 ENTER">
         </form>
         <h4 class="js-show-code"></h4>
         <form class="js-price-form price-display">
-            <input type="text" placeholder="값을 입력">
+            <input type="text" placeholder="값 입력 후 ENTER로 제출">
         </form>
         <h4 class="js-show-price"></h4>
         <input type="radio" name="gorl" value="g">이상
         <input type="radio" name="gorl" value="l">이하
-        <!-- <button class="js-g-button" type="button">이상의 값으로 알림</button>
-        <button class="js-l-button" type="button">이하의 값으로 알림</button> -->
         <br>
-        <!-- <input type="submit" value=""> -->
-        <!-- <button class="sub-btn" type="button">알림받기</button> -->
         <button onclick="checkAll()">알림받기</button>
+        <p class="temp615">
+            설정된 값 :
+            <p class="no_today">		
+                <em class="no_down">
+                    <span class="no8">8</span>
+                    <span class="no1">1</span>
+                    <span class="shim">,</span>
+                    <span class="no0">0</span>
+                    <span class="no0">0</span>
+                    <span class="no0">0</span>
+                </em>
+            </p>
+        </p>
         <script src="code.js"></script>
         <script src="price.js"></script>
         <script src="submit.js"></script>

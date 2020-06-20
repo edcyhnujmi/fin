@@ -13,7 +13,6 @@ function handlePriceSubmit(event){
     const userPrice = priceInput.value;
     paintPrice(userPrice);
     savePrice(userPrice);
-    console.log(userPrice);
 }
 
 function askForPrice(){
